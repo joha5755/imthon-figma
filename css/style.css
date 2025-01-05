@@ -1,0 +1,340 @@
+.heat{
+    margin-bottom: 80px;
+    margin-top: 30px;
+    margin-left: 135px;
+    position: relative;
+}
+.sectionone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    background-image: url(/bacimg/Vector.png);
+    position: relative;
+    top: -150px;
+    /* background: linear-gradient(to right bottom, rgba(250, 245, 243, 1) 70%, rgb(117, 166, 184)); */
+    background-size: cover;
+}
+.hero__h1{
+    width: 570px;
+    font-size: 62px;
+    line-height: 74px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    font-family: "Martian Mono";
+    background: linear-gradient(107.24deg, #FEA36F -11.37%, #062630 61.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 200px;
+
+}
+.hero__p{
+    width: 570px;
+    color: rgba(56, 81, 89, 1);
+    font-size: 20px;
+    margin-top: 24px;
+}
+.hero__btn{
+    width: 380px;
+    height: 64px;
+    border: 2px solid rgba(6, 38, 48, 1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    font-size: 18px;
+    color: rgba(6, 38, 48, 1);
+    font-weight: 600;
+    font-family: "Martian Mono";
+    letter-spacing: -1px;
+    margin-bottom: 40px;
+
+}
+.car{
+    display: flex;
+}
+.sectiontwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 100px;
+}
+.table p{
+    color: rgba(56, 81, 89, 1);
+}
+.table h2{
+    font-size: 50px;
+    width: 530px;
+    letter-spacing: -2px;
+    font-family: "Martian Mono";
+    margin-bottom: 34px;
+}
+
+.items{
+    display: flex;
+    width: 389px;
+    margin-bottom: 24px;
+    gap: 24px;
+}
+.sectionthree{
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 130px;
+}
+.mem{
+    position: relative;
+    left: -180px;
+    bottom: -10px;
+}
+.part h2{
+    font-family: "Martian Mono";
+    width: 534px;
+    letter-spacing: -2px;
+    font-size: 50px;
+    margin-bottom: 24px;
+}
+.part p{
+    width: 530px;
+    color: rgba(56, 81, 89, 1);
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 20px;
+}
+s{
+    color: rgba(56, 81, 89, 1);
+    font-weight: 600;
+    text-transform: none;
+    text-decoration: none;
+
+}
+
+.sectionfour{
+    padding-top: 70px;
+    margin-top: 120px;
+    height: 455px;
+    background-image: url(/bacimg/Vector.png);
+    background-repeat: no-repeat;
+    background-position:center; 
+    margin-top: 100px;
+
+}
+.sectionfour h1{
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: -4%;
+    font-weight: 600;
+    width: 712px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Martian Mono";
+    margin-bottom: 70px;
+    
+
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.own{
+    display: flex;
+    justify-content: space-between;
+}
+.calc{
+    width: 40px;
+    height: 40px;
+    border:3px solid rgba(6, 38, 48, 1);
+    border-radius:4px;
+    display: flex;
+    align-items: center;
+    font-family: "Martian Mono";
+    color: rgba(6, 38, 48, 1);
+    font-size: 20px;
+    justify-content: center;
+}
+.arrow__item p{
+    font-family: "Martian Mono";
+    color: rgba(6, 38, 48, 1);
+    letter-spacing: -1%;
+    width: 226px;
+    margin-top: 20px;
+    font-weight: 600;
+    
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.secFiveH1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Martian Mono";
+    letter-spacing: -2px;
+    margin-bottom: 64px;
+    margin-top: 50px;
+}
+.month, .mohth{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 16px;
+}
+.optionsItem{
+    width: 286px;
+    height: 358px;
+    border:rgba(230, 225, 223, 1) solid 2px;
+    border-radius: 8px;
+    padding: 24px 24px 24px 24px;
+
+}
+.optionsItem h4{
+    font-size: 24px;
+    color: rgba(6, 38, 48, 1);
+    font-family: "Martian Mono";
+    margin-bottom: 24px;
+}
+.optionsThink{
+    width: 350px;
+    border:rgba(230, 225, 223, 1) solid 2px;
+    height: 390px;
+    border-radius: 8px;
+    background: linear-gradient(to right bottom, rgba(250, 245, 243, 1) 40%, rgb(117, 166, 184));
+    padding: 40px 24px 24px 24px;
+}
+
+.optionsThink h4{
+    font-size: 24px;
+    color: rgba(6, 38, 48, 1);
+    font-family: "Martian Mono";
+    margin-bottom: 24px;
+
+}
+.casual{
+    display: inline-block;
+    margin-left: 8px;
+    color: rgba(56, 81, 89, 1);
+    margin-bottom: 24px;
+}
+
+.optionsThink h3, .optionsItem h3{
+    color: rgba(6, 38, 48, 1);
+    font-family: "Martian Mono";
+    margin-bottom: 24px;
+    font-size: 34px;
+    letter-spacing: -1px;
+    display: inline-block;
+}
+.optionsThink p, .optionsItem p{
+    color: rgba(56, 81, 89, 1);
+}
+.option-btn{
+    width: 238px;
+    height: 63px;
+    color: rgba(6, 38, 48, 1);
+    font-family: "Martian Mono";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+    border-radius:8px;
+    border:rgba(6, 38, 48, 1) solid 2px;
+    font-weight: 600;
+    letter-spacing: -1px;   
+}
+.option-btn-think{
+    width: 302px;
+    height: 53px;
+    color: rgba(6, 38, 48, 1);
+    font-family: "Martian Mono";
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 32px;
+    border-radius:8px;
+    border:rgba(6, 38, 48, 1) solid 2px;
+    font-weight: 600;
+    letter-spacing: -1px;   
+}
+.lest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.lest h4{
+    color: rgba(6, 38, 48, 1);
+    font-family: "Martian Mono";
+    font-size: 34px;
+    letter-spacing: -1px;
+    text-align: center;
+    width: 970px;
+    line-height: 44px;
+}
+.lest p{
+    color: rgba(56, 81, 89, 1);
+    letter-spacing: -0.5px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 521px;
+    background:rgba(6, 38, 48, 1);
+    color: white;
+    border-radius: 8px;
+}
+.footer h1{
+    font-family: "Martian Mono";
+    width: 685px;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+.footer button{
+    width: 380px;
+    height: 68px;
+    border-radius: 8px;
+    background:rgba(6, 38, 48, 1);
+    color: white;
+    font-family: "Martian Mono";
+    border: white solid 2px;
+    margin-bottom: 24px;
+    letter-spacing: -1px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hr{
+    width: 1170px;
+    height: 1px;
+    background-color: rgba(56, 81, 89, 1);
+    margin-top: 64px;
+    margin-bottom: 34px;
+}
+
+.footbottm{
+    display: flex;
+    gap: 920px;
+    justify-content: space-between;
+    
+}
+/* .scialmed:hover{
+ background:red;
+} */
