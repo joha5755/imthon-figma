@@ -9,6 +9,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
+
 }
 
 ul{
@@ -25,4 +26,3 @@ hr{
    border:rgba(230, 225, 223, 1) solid 1px;
    margin-bottom: 24px;
 }
-

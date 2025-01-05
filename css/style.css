@@ -12,7 +12,6 @@
     background-image: url(/bacimg/Vector.png);
     position: relative;
     top: -150px;
-    /* background: linear-gradient(to right bottom, rgba(250, 245, 243, 1) 70%, rgb(117, 166, 184)); */
     background-size: cover;
 }
 .hero__h1{
@@ -23,7 +22,7 @@
     letter-spacing: -2px;
     font-family: "Martian Mono";
     background: linear-gradient(107.24deg, #FEA36F -11.37%, #062630 61.84%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 200px;
 
@@ -54,6 +53,207 @@
 .car{
     display: flex;
 }
+
+/* 1 is end  */
+@media (max-width:768px) {
+    .sectionone{
+        flex-direction: column;
+    }
+    .hero__p{
+        width: 704px;
+    }
+    .heat{
+        margin-left: 40px;
+    }
+    .mare{
+        width: 100%;
+    }
+    /* end  */
+    .sectiontwo{
+        align-items: start;
+        justify-content: start;
+        flex-direction: column-reverse;
+    }
+    .border{
+        width: 100%;
+    }
+    .table{
+        margin-left: -150px;
+    }
+    .part p{
+        width: 662px;
+        font-size: 20px;
+    }
+    /* end  */
+    .sectionthree{
+        flex-direction: column;
+    }
+    .part{
+        margin-left: -150px;
+    }
+
+    /* end */
+    .options{
+      
+        flex-direction: column;
+    }
+    .optionsThink{
+        width: 286px !important;
+        height: 358px !important;
+        padding: 24px 24px 24px 24px !important;
+
+    }
+    .option-btn-think{
+        width: 238px !important;
+        height: 63px !important;
+        margin-top: 10px !important;
+    }
+    .secFiveH1{
+        margin-bottom: 30px;
+    }
+
+    /* end */
+    .sectionfour{
+        display: none;
+    }
+    .mar{
+        width: 704px !important;
+        text-align: left !important;
+    } 
+    .lest img{
+        margin-left: -580px;
+    }
+    .lest p{
+        margin-left: -470px;
+    }
+    .mare{
+        padding: 20px 24px;
+    }
+    .hr{
+        width: 400px;
+        height: 1px;
+        margin-top: 24px;
+        margin-bottom: 14px;
+    } 
+    .footbottm{
+        width: 100%;
+        height: 200px;
+       margin-top: -140px;
+    }
+
+    .footbottm {
+        display: flex;
+        margin: 0;
+    }
+    .scialmed{
+        margin-right: -300px !important;
+        position: relative;
+        left: -350px;
+    }
+    .hr{
+        width: 700px !important;
+        height: 1px;
+        background-color: rgba(56, 81, 89, 1);
+        margin-top: 64px;
+        margin-bottom: 34px;
+    }
+    .footbottm{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 90px;
+        
+    }
+    .footbottm p{
+        margin-left: 50px;
+        margin-right: -900px;
+    }
+    
+}
+
+
+
+
+@media (max-width:375px) {
+   .hero__h1{
+    font-size: 38px;
+    width: 343px;
+    margin-left: 16px;
+
+   }
+   .hero__p{
+    width: 343px;
+    margin-left: 16px;
+
+   }
+   .hero__btn{
+    width: 343px;
+   }
+   .items{
+    margin-left: 180px;
+
+   }
+   .vert{
+    width: 303px;
+    font-size: 20px;
+   }
+   .arrow{
+    margin-left: 180px ;
+    font-size: 34px !important;
+    width: 343px !important;
+
+   }
+   .secn{
+    font-size: 34px !important;
+    width: 343px !important;
+    margin-left: 180px;
+
+   }
+   .mem{
+    left: -150px !important;
+   }
+   .cry{
+    width: 343px !important;
+    margin-left: 180px;
+   }
+
+   .optionsItem,.optionsThink{
+    width: 340px !important; 
+   }
+
+   .option-btn,.option-btn-think{
+    width: 292px !important;
+   }
+
+   .mar{
+    width: 343px !important;
+    font-size:24px !important;
+    line-height: 26px !important;
+   }
+   .eee{
+    margin-left: -180px !important;
+   }
+   .ttt{
+    margin-left: -120px !important;
+   }
+   .secFiveH1{
+    width: 343px !important;
+    margin-left: 16px !important;
+   }
+   .frfr{
+    font-size: 34px !important;
+    width: 342px !important;
+   }
+
+   .mare{
+    width: 340px !important;
+    font-size: 16px !important;
+   }
+   .hr{
+    width: 343px !important;
+   }
+}
+/* responsive end */
 .sectiontwo{
     display: flex;
     align-items: center;
@@ -74,7 +274,6 @@
 
 .items{
     display: flex;
-    width: 389px;
     margin-bottom: 24px;
     gap: 24px;
 }
@@ -136,6 +335,22 @@ s{
     
 
 }
+.hero__btn:hover{
+    background: linear-gradient(to right top,rgba(255, 226, 209, 1), rgba(255, 245, 239, 1));
+    transition: all 0.3s;
+}
+.option-btn-think:hover{
+    background: linear-gradient(to right top, rgba(255, 226, 209, 1), rgba(255, 245, 239, 1));
+    transition: all 0.5s ease-in-out;
+  }
+  .option-btn:hover{
+    background: linear-gradient(to right top, rgba(255, 226, 209, 1), rgba(255, 245, 239, 1));
+    transition: all 0.5s;
+  }
+  .mare:hover{
+    background: linear-gradient(to right, rgba(56, 81, 89, 1), rgba(6, 38, 48, 1));
+    transition: 0.5s;
+  }
 
 .arrow{
     display: flex;
@@ -328,13 +543,11 @@ s{
     margin-top: 64px;
     margin-bottom: 34px;
 }
-
 .footbottm{
     display: flex;
-    gap: 920px;
+    align-items: center;
     justify-content: space-between;
+    gap: 900px;
     
 }
-/* .scialmed:hover{
- background:red;
-} */
+
